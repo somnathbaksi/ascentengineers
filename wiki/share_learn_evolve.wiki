@@ -1,8 +1,11 @@
 #labels unconference,share,learn,evolve,mathematics,technology,science
-#an unconference to be held on 18th, friday, april 08 at ascent 
+==an unconference to be held on 18th, friday, april 08 at ascent ==
 
-= Introduction =
+= share - learn - evolve =
 
+ it is an unconference ie. let's meet, share our ideas, learn from friends and evolve into better beings on friday, the 18th of april, 08 at ascent. all are welcome. a few of the topics we are going to discuss are wavelets gps interfacing neuro fuzzy systems image processing embeded systems etc....
+
+keep posting your comments 
 all are welcome to the program and contribute here
 
 

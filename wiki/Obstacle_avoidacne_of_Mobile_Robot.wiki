@@ -15,6 +15,7 @@ An autonomous vehicle has the following advantages:
 2 it reduces the down-time needed for re-programming
 3 it can work in hazardous environments
 
+the page is contributed by jackson
 
 
 = Details =

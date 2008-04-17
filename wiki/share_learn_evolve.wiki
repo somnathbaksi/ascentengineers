@@ -9,6 +9,16 @@ keep posting your comments
 all are welcome to the program and contribute here
 
 
-= Details =
+== Details ==
 
-put down how do u want this program to be
+ # gather what the delegates are actually looking for
+ # what are the topics delegates would love to present here
+
+=== kake would like to know ===
+ # gps interfacing with micro-controller
+ # inverse wavelet transform : a conceptual understanding
+
+=== kake would like to share ===
+ # the concept wiki
+
+*friends, write down your interests and aspirations*

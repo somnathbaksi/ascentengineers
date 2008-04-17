@@ -1,8 +1,6 @@
-#Mobile robot has to reach the target in the optimal time.
-
 = Introduction =
 
-Robot, a versatile mechanical device, is generally available in the form of a manipulator arm, a mobile vehicle, a free-flying platform, a multi-joint multi-fingered hand or a combination of these. There are basically two types of mobile robots, namely _wheeled robot_ and _legged robot_. 
+  Robot, a versatile mechanical device, is generally available in the form of a manipulator arm, a mobile vehicle, a free-flying platform, a multi-joint multi-fingered hand or a combination of these. There are basically two types of mobile robots, namely _wheeled robot_ and _legged robot_. 
 *A wheeled robot* is suitable for a smooth terrain and is more energy efficient and easier to control. On the other hand, a *legged robot* can operate well in hostile environments and promises a high degree of terrain adaptivity and maneuverability. However, it has a complex structure and poor controllability. Current research in robotics aims to build autonomous and intelligent robotic systems to meet the increasing industrial demand for automatic manufacturing systems. 
 An autonomous robot should be able to perform the following tasks:
 1 Obtaining information of the environment using visual or auditory sensors, 

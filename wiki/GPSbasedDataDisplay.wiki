@@ -1,0 +1,18 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+microcontroller based gps system for data display
+
+
+
+
+= Details =
+
+It is mainly an embedded project. the main components of this project are an 
+rf id,a jupiter reciver.
+
+ *how to interface the microcontroller with the GPS receiver*
+
+The gps reciver is connected to the RF id which mainly consist of the 8051 microcontroller,
+latch, 

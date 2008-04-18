@@ -1,4 +1,7 @@
 #labels unconference,share,learn,evolve,mathematics,technology,science
+_suggest atleast one topic you would like to learn today_
+and we will start with it.
+
 ==an unconference to be held on 18th, friday, april 08 at ascent ==
 
 = share - learn - evolve =

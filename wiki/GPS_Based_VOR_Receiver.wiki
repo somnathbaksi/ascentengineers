@@ -6,13 +6,13 @@ the topics covered in this page are:
 
  # what is VOR?
  # why GPS in this project?
- # route mapo 
+ # route map 
  # using turbo c
  # final work
 
 
 
-= Details =
+== what is VOR ==
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_

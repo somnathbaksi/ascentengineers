@@ -1,11 +1,10 @@
 #labels unconference,share,learn,evolve,mathematics,technology,science
 ==GPS interfacing==
 speakers are junise and sreejith
+junise gave a wonderful presentation on gps interfacing with sreejith
 we are going to start it by 11.15 am
 kake
 
-_great platform to acquire & share knowledge._
-...nikhil.r 
 =attention all, suggest the topics you are interested to discuss=
 * and it is urgent*
 
@@ -44,3 +43,6 @@ all are welcome to the program and contribute here
 
 *friends, write down your interests and aspirations*
 its very good idea.
+
+_great platform to acquire & share knowledge._
+...nikhil.r 

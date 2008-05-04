@@ -1,10 +1,14 @@
-#summary One-sentence summary of this page.
+=MATrobi=
 
 = Introduction =
+==='robot'an overview===
+*Official definition*
+There are many variations in definitions of what exactly is a robot. Therefore, it is sometimes difficult to compare number of robots in different countries. To try to provide a universally acceptable definition, the International Organisation for Standardisation gives a definition of robot in ISO 8373, which defines a robot as "an automatically controlled, reprogrammable, multipurpose, manipulator programmable in three or more axes, which may be either fixed in place or mobile for use in industrial automation applications." 
 
 Add your content here.
 
-
+==objectives==
+To control a robotic car using matlab 
 = Details =
 
 Add your content here.  Format your content with:

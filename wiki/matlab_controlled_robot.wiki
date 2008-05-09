@@ -1,6 +1,17 @@
 # a robot which can be controlled from matlab environment with just one line of code
 =matlab controlled robotic car=
 
+==Contents==
+ # Introduction
+ # Objectives
+ # Design overview
+ # Literature Review
+ # Circuit Diagram and Explanation
+   # RS232 Interfacing
+   # Microcontroller
+   # Motor Driver
+ # 
+
 = Introduction =
 ==='robot'an overview===
 There are many variations in definitions of what exactly is a robot. Therefore, it is sometimes difficult to compare number of robots in different countries. To try to provide a universally acceptable definition, the International Organisation for Standardisation gives a definition of robot in ISO 8373, which defines a robot as "an automatically controlled, reprogrammable, multipurpose, manipulator programmable in three or more axes, which may be either fixed in place or mobile for use in industrial automation applications." 

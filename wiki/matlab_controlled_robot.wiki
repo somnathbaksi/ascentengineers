@@ -6,11 +6,20 @@
  # Objectives
  # Design overview
  # Literature Review
+   # Matlab
+     * Serial Communication with Matlab
+   # Microcontroller
+   # RS232 Communication
  # Circuit Diagram and Explanation
    # RS232 Interfacing
    # Microcontroller
    # Motor Driver
- # 
+ # Software explanation
+ # Testing and Verification
+ # Advantages of the system
+ # Scope for future developments
+ # Conclusion
+ # References
 
 = Introduction =
 ==='robot'an overview===

@@ -34,9 +34,6 @@ Add your content here.
 ==objectives==
 Matlab is the world's most recommended programming language for mathematical computations. It is very convenient to design complex control system for controlling robots in matlab. But in order to implement these control systems, the code has to be converted to c language to be burnt on to the microcontroller used in the robot. Many a times, if not always, the control system is too heavy in terms of memory consumption and process power requirement for a microcontroller system to work with. Hence it would be good idea if the control system is implemented in matlab in a pc and by establishing a duplex link between robot and the pc. 
   The objective of this project is to design a robot which can be controlled from matlab environment. The robot is to have two traction wheels and by varying the angular velocity of the wheels, the direction and speed of the robot can be controlled.  A microcontroller take care of controlling these wheels. The microcontroller has also to be designed for receiving serial data through it's UART port. A function is to be developed in matlab which sends out four different codes to the robot, through its serial port. The four code words are stop, move forward, move right and move left. 
-= Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+==Design Overview ==
+ _insert a block a diagram here_

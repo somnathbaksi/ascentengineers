@@ -14,6 +14,7 @@
    # RS232 Interfacing
    # Microcontroller
    # Motor Driver
+ # PCB layout
  # Software explanation
  # Testing and Verification
  # Advantages of the system

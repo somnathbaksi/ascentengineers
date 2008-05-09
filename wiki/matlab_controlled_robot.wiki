@@ -1,14 +1,18 @@
-=MATrobi=
+# a robot which can be controlled from matlab environment with just one line of code
+=matlab controlled robotic car=
 
 = Introduction =
 ==='robot'an overview===
-*Official definition*
 There are many variations in definitions of what exactly is a robot. Therefore, it is sometimes difficult to compare number of robots in different countries. To try to provide a universally acceptable definition, the International Organisation for Standardisation gives a definition of robot in ISO 8373, which defines a robot as "an automatically controlled, reprogrammable, multipurpose, manipulator programmable in three or more axes, which may be either fixed in place or mobile for use in industrial automation applications." 
+
+  Matlab is the world's most recommended programming language for mathematical computations.
+There are a plenty of control system designs in matlab for controlling robot. ascent has already developed a fuzzy neuro control system for a guided vehicle to operate in underground coal mines. 
 
 Add your content here.
 
 ==objectives==
-To control a robotic car using matlab 
+Matlab is the world's most recommended programming language for mathematical computations. It is very convenient to design complex control system for controlling robots in matlab. But in order to implement these control systems, the code has to be converted to c language to be burnt on to the microcontroller used in the robot. Many a times, if not always, the control system is too heavy in terms of memory consumption and process power requirement for a microcontroller system to work with. Hence it would be good idea if the control system is implemented in matlab in a pc and by establishing a duplex link between robot and the pc. 
+  The objective of this project is to design a robot which can be controlled from matlab environment. The robot is to have two traction wheels and by varying the angular velocity of the wheels, the direction and speed of the robot can be controlled.  A microcontroller take care of controlling these wheels. The microcontroller has also to be designed for receiving serial data through it's UART port. A function is to be developed in matlab which sends out four different codes to the robot, through its serial port. The four code words are stop, move forward, move right and move left. 
 = Details =
 
 Add your content here.  Format your content with:

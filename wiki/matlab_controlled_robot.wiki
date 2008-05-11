@@ -43,3 +43,10 @@ http://ascentengineers.googlecode.com/files/matlab_robot_block_diagram.JPG
 
 
 ==Literature Review==
+
+===matlab===
+MATLAB is a numerical computing environment and programming language. Created by The MathWorks, MATLAB allows easy matrix manipulation, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs in other languages. Although it specializes in numerical computing, an optional toolbox interfaces with the Maple symbolic engine, allowing it to be part of a full computer algebra system.
+
+ It is used by more than one million people in industry and academia A North American individual commercial license costs US$1900 (MATLAB only), while a license for student use costs US$99 (MATLAB, Simulink and Symbolic Math). 
+
+====History====

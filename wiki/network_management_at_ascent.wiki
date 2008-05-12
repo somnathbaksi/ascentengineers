@@ -16,6 +16,7 @@
 
 project is to kept in a separate location 
 software repository maintained on a separate partition
+windows additional softwares are installed in sdb8
 
 = Introduction =
 we have to enable communication between linux based systems as well as windows based systems, so that any user could login to same location from any system of any operating system using a single user name and password of his own.

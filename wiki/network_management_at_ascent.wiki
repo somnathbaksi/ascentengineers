@@ -3,13 +3,14 @@
 ====The organisation ascent documents in the intranet server is listed below====
 =====The ascent main documents are available on sdb9 in the master system which has an internal ip 192.168.0.10=====
  # administration
- # management
+ # faculties  : this folder will be emptied soon as all faculties will be given individual login
  # library
   # datasheet
   # syllabus
   # text books
- # faculties  : this folder will be emptied soon as all faculties will be given individual login
+ # management
  # misc
+ # project
  # put it in right folder : scattered data is put here so that needed people can put it in the right folder
  # seminar
  # software_development

@@ -1,13 +1,13 @@
 #summary One-sentence summary of this page.
 
 ====The organisation ascent documents in the intranet server is listed below====
-#administration
-#management
-#library
- #datasheet
- #misc
- #syllabus
- #text books
+ #administration
+ #management
+ #library
+  #datasheet
+  #misc
+  #syllabus
+  #text books
 
 project is to kept in a separate location 
 

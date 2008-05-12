@@ -10,13 +10,12 @@
   # text books
  # management
  # misc
-
  # put it in right folder : scattered data is put here so that needed people can put it in the right folder
-
  # software_development
  # trash        : empty doubtful wastes to this folder
 
-projects and seminars are to kept in a separate location 
+projects and seminars are to kept in a separate location
+they are located at sda3 
  # project : contains the complete details of our on going and completed projects
  # seminar
 software repository maintained on a separate partition

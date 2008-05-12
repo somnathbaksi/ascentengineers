@@ -1,11 +1,15 @@
 #summary One-sentence summary of this page.
 
 = Introduction =
-we have to communicate between linux based systems as well as windows based systems.
-also any user could login to same location from any system of any operating system using a single user name and password of his own.
+we have to enable communication between linux based systems as well as windows based systems, so that any user could login to same location from any system of any operating system using a single user name and password of his own.
+this could also restrict unnecessary and unauthorised access to some system folders for some users
 
 
 = Details =
 some software links under consideration:
-  *[http://www.tridiavnc.com]
-*
+  * http://www.tridiavnc.com
+  * http://www.macwindows.com/emulator.html
+  * http://www.straightrunning.com/XmingNotes
+  * http://downloadpedia.org/Open_Source_Windows#P2P
+  * http://www.tightvnc.com
+  * http://www.freewarereview.info/2007-04/vnc_-_free_open-source_alternative_to_the_remote_desktop_protocol.html

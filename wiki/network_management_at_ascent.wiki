@@ -1,0 +1,11 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+we have to communicate between linux based systems as well as windows based systems.
+also any user could login to same location from any system of any operating system using a single user name and password of his own.
+
+
+= Details =
+some software links under consideration:
+  *[http://www.tridiavnc.com]
+*

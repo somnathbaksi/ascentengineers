@@ -6,14 +6,14 @@
  # management
  # library
   # datasheet
-  # faculties  : this folder will be emptied soon as all faculties will be given individual login
-  # misc
-  # put it in right folder : scattered data is put here so that needed people can put it in the right folder
-  # seminar
-  # software_development
-  # syllabus
-  # text books
-  # trash        : empty doubtful waists to this folder
+ # faculties  : this folder will be emptied soon as all faculties will be given individual login
+ # misc
+ # put it in right folder : scattered data is put here so that needed people can put it in the right folder
+ # seminar
+ # software_development
+ # syllabus
+ # text books
+ # trash        : empty doubtful waists to this folder
 
 project is to kept in a separate location 
 software repository maintained on a separate partition

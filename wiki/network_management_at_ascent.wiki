@@ -1,16 +1,21 @@
 #summary One-sentence summary of this page.
 
 ====The organisation ascent documents in the intranet server is listed below====
+=====The ascent main documents are available on sdb9 in the master system which has an internal ip 192.168.0.10=====
  # administration
  # management
  # library
   # datasheet
+  # faculties  : this folder will be emptied soon as all faculties will be given individual login
   # misc
+  # put it in right folder : scattered data is put here so that needed people can put it in the right folder
+  # software_development
   # syllabus
   # text books
+  # trash        : empty doubtful waists to this folder
 
 project is to kept in a separate location 
-
+software repository maintained on a separate partition
 
 = Introduction =
 we have to enable communication between linux based systems as well as windows based systems, so that any user could login to same location from any system of any operating system using a single user name and password of his own.

@@ -121,3 +121,12 @@ As of MATLAB 6.0 (R 12), a serial port interface is provided, allowing you to co
   * Record information to disk
 
 Here is an example serial session connecting MATLAB to the serial port (COM1) with a baud rate of 4800:
+
+ s = serial('COM1');
+ set(s,'BaudRate',4800);
+ fopen(s);
+ fprintf(s,'*IDN?')
+ out = fscanf(s);
+ fclose(s)
+ delete(s)
+ clear s

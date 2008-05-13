@@ -70,3 +70,7 @@ Many functions have a different behavior with matrix and vector arguments. Since
 Array indexing is one-based which is the common convention for matrices in mathematics, but does not accommodate the indexing convention of sequences that have zero or negative indices. For instance, the DFT (or FFT) is defined with the DC component at index 1 instead of index 0, which is not consistent with the standard definition of the DFT. This one-based indexing convention is hard wired into MATLAB, making it impossible for a user to define their own zero-based or negative indexed arrays to concisely model an idea having non-positive indices.
 
       MATLAB doesn't support references, which makes it difficult to implement data structures that contain indirections, such as open hash tables, linked lists, trees, and various other common computer science data structures. In addition, since the language is consistently call-by-value, it means that functions that modify array or object values must return and assign those modified values for the change to be persistent.
+
+====Serial Port Communication in matlab====
+
+http://en.wikipedia.org/wiki/Image:Serial_port.jpg

@@ -79,4 +79,6 @@ A serial port is a serial communication physical interface through which informa
 
 While the RS-232 standard originally specified a 25-pin D-type connector, many designers of personal computers chose to implement only a subset of the full standard: they traded off compatibility with the standard against the use of less costly and more compact connectors (in particular the DE-9 version used by the original IBM PC-AT). Presence of a nine pin D-subminiature connector is neither necessary nor sufficient to indicate use of a serial port.
 
+http://ascentengineers.googlecode.com/files/serial%20port%20mail%20D%20connector.jpg
+
  Some miniaturized electronics, particularly graphing calculators and to a lesser extent handheld amateur and two-way radio equipment, have serial ports using a jack plug connector, usually the smaller 2.5 or 3.5mm connectors and use the most basic 3-wire interface.

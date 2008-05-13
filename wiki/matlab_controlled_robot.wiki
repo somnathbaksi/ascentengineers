@@ -82,3 +82,13 @@ While the RS-232 standard originally specified a 25-pin D-type connector, many d
 http://ascentengineers.googlecode.com/files/serial%20port%20mail%20D%20connector.jpg
 
  Some miniaturized electronics, particularly graphing calculators and to a lesser extent handheld amateur and two-way radio equipment, have serial ports using a jack plug connector, usually the smaller 2.5 or 3.5mm connectors and use the most basic 3-wire interface.
+
+=====settings in serial communication=====
+
+Many settings are required for serial connections used for asynchronous start-stop communication, to select speed, number of data bits per character, parity, and number of stop bits per character. In modern serial ports using a UART integrated circuit, all settings are usually software-controlled; hardware from the 1980s and earlier may require setting switches or jumpers on a circuit board. One of the simplifications made in such serial bus standards as Ethernet, FireWire, and USB is that many of those parameters have fixed values so that users can not and need not change the configuration; the speed is either fixed or automatically negotiated. Often if the settings are entered incorrectly the connection will not be dropped however any data sent will be received on the other end as nonsense.
+
+=====speed=====
+
+Serial ports use two-level (binary) signaling, so the data rate in bits per second is equal to the symbol rate in baud. These rates are based on multiples of the rates for electromechanical teleprinters. The port speed and device speed must match, though some devices may automatically detect the speed of the serial port. Though the RS-232 standard is formally limited to 20,000 bits per second, serial ports on popular personal computers allow for much higher baud rates; the capability to set a bit rate does not imply that a working connection will result. Not all bit rates are possible with all serial ports. Some special-purpose protocols such as MIDI for musical instrument control, use serial data rates other than the above series.
+
+ The speed includes bits for framing (stop bits, parity, etc.) and so the effective data rate is lower than the bit transmission rate. For example 8-N-1 encoding only 80% of the bits are available for data (for every eight bits of data, two more framing bits are sent).

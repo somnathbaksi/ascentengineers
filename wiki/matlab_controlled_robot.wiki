@@ -74,3 +74,9 @@ Array indexing is one-based which is the common convention for matrices in mathe
 ====Serial Port Communication in matlab====
 
 A serial port is a serial communication physical interface through which information transfers in or out one bit at a time. Throughout most of the history of personal computers, data transfer through serial ports connected the computer to devices such as terminals and various peripherals. While such interfaces as Ethernet, FireWire, and USB all send data as a serial stream, the term "serial port" usually identifies hardware more or less compliant to the RS-232 standard, intended to interface with a modem or with a similar communication device.
+
+=====connectors=====
+
+While the RS-232 standard originally specified a 25-pin D-type connector, many designers of personal computers chose to implement only a subset of the full standard: they traded off compatibility with the standard against the use of less costly and more compact connectors (in particular the DE-9 version used by the original IBM PC-AT). Presence of a nine pin D-subminiature connector is neither necessary nor sufficient to indicate use of a serial port.
+
+ Some miniaturized electronics, particularly graphing calculators and to a lesser extent handheld amateur and two-way radio equipment, have serial ports using a jack plug connector, usually the smaller 2.5 or 3.5mm connectors and use the most basic 3-wire interface.

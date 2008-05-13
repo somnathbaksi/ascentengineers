@@ -114,8 +114,8 @@ Array indexing is one-based which is the common convention for matrices in mathe
 
 As of MATLAB 6.0 (R12), a serial port interface is provided, allowing you to connect to a computer's serial communications (COM) port. This interface is established through a serial port object, which you create using the SERIAL function. The serial port object supports functions and properties that allow you to:
 
-* Configure serial port communications
-* Use serial port control pins
-* Write and read data
-* Use events and actions
-* Record information to disk
+  * Configure serial port communications
+  * Use serial port control pins
+  * Write and read data
+  * Use events and actions
+  * Record information to disk

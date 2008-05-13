@@ -92,3 +92,9 @@ Many settings are required for serial connections used for asynchronous start-st
 Serial ports use two-level (binary) signaling, so the data rate in bits per second is equal to the symbol rate in baud. These rates are based on multiples of the rates for electromechanical teleprinters. The port speed and device speed must match, though some devices may automatically detect the speed of the serial port. Though the RS-232 standard is formally limited to 20,000 bits per second, serial ports on popular personal computers allow for much higher baud rates; the capability to set a bit rate does not imply that a working connection will result. Not all bit rates are possible with all serial ports. Some special-purpose protocols such as MIDI for musical instrument control, use serial data rates other than the above series.
 
  The speed includes bits for framing (stop bits, parity, etc.) and so the effective data rate is lower than the bit transmission rate. For example 8-N-1 encoding only 80% of the bits are available for data (for every eight bits of data, two more framing bits are sent).
+
+=====data bits=====
+
+The number of data bits in each character can be 5 (for Baudot code), 6 (rarely used), 7 (for true ASCII), 8 (for any kind of data, as this matches the size of a byte), or 9 (rarely used). 8 data bits are almost universally used in newer applications. 5 or 7 bits generally only make sense with older equipment such as teleprinters.
+
+ Most serial communications designs send the data bits within each byte LSB (Least Significant Bit) first. This standard is also referred to as "little endian". Also possible, but rarely used, is "big endian" or MSB (Most Significant Bit) first serial communications. The order of bits is not usually configurable, but data can be byte-swapped only before sending.

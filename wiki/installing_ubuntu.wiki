@@ -1,0 +1,13 @@
+# trying to install on different systems
+
+= ubuntu =
+
+the the thoshiba laptop have no linux suport
+no driver available.
+they suppor only windows.......
+
+sevrvice centre contact
+
+http://www.csd.toshiba.com/cgi-bin/tais/su/su_gaspLocatorDetail.jsp?coid=1625122&lang=0&BV_SessionID=@@@@1108635142.1210760016@@@@&BV_EngineID=cccjadeedjikidecgfkceghdgngdgnj.0
+
+just go for HCL or DEll or other sysytems.

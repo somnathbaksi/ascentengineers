@@ -137,3 +137,14 @@ Here is an example serial session connecting MATLAB to the serial port (COM1) wi
 The {{{*IDN?}}} command above is a typical instrument command and can be replaced by any command that is valid for your specific device. {{{*IDN}}} queries the device for identification information, which is returned to out. If your device does not support this command, or if it is connected to a different serial port, you should modify the above example accordingly.
 
  The serial port interface is supported only for Microsoft Windows, Linux, and Sun Solaris platforms.
+
+===Atmel 89C51===
+
+The AT89C52 is a low-power, high-performance CMOS 8-bit microcomputer with 8K                                                                                      Flash bytes of Flash programmable and erasable read only memory (PEROM). The device
+is manufactured using Atmel’s high-density nonvolatile memory technology and is
+compatible with the industry-standard 80C51 and 80C52 instruction set and pinout.
+The on-chip Flash allows the program memory to be reprogrammed in-system or by a
+conventional nonvolatile memory programmer. By combining a versatile 8-bit CPU
+with Flash on a monolithic chip, the Atmel AT89C52 is a powerful microcomputer
+which provides a highly-flexible and cost-effective solution to many embedded control
+applications.

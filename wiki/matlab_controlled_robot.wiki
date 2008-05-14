@@ -133,3 +133,7 @@ Here is an example serial session connecting MATLAB to the serial port (COM1) wi
     clear s
 
 }}}
+
+The *IDN? command above is a typical instrument command and can be replaced by any command that is valid for your specific device. *IDN queries the device for identification information, which is returned to out. If your device does not support this command, or if it is connected to a different serial port, you should modify the above example accordingly.
+
+The serial port interface is supported only for Microsoft Windows, Linux, and Sun Solaris platforms.

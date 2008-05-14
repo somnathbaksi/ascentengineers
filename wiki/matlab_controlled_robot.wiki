@@ -1,4 +1,4 @@
-# a robot which can be controlled from matlab environment with just one line of code
+ri# a robot which can be controlled from matlab environment with just one line of code
 =matlab controlled robotic car=
 http://ascentengineers.googlecode.com/files/robot-50.jpg
 ==Contents==
@@ -103,7 +103,7 @@ MATLAB is a proprietary product of The 'MathWorks, so users are subject to vendo
 
 Many functions have a different behavior with matrix and vector arguments. Since vectors are matrices of one row or one column, this can give unexpected results. For instance, function sum(A) where A is a matrix gives a row vector containing the sum of each column of A, and sum(v) where v is a column or row vector gives the sum of its elements; hence the programmer must be careful if the matrix argument of sum can degenerate into a single-row array. While sum and many similar functions accept an optional argument to specify a direction, others, like plot, do not, and require additional checks. There are other cases where MATLAB's interpretation of code may not be consistently what the user intended (e.g. how spaces are handled inside brackets as separators where it makes sense but not where it doesn't, or backslash escape sequences which are interpreted by some functions like fprintf but not directly by the language parser because it wouldn't be convenient for Windows directories). What might be considered as a convenience for commands typed interactively where the user can check that MATLAB does what the user wants may be less supportive of the need to construct reusable code.
 
-      Though other data types are available, the default is a matrix of doubles. This array type does not include a way to attach attributes such as engineering units or sampling rates. Although time and date markers were added in !R14SP3 with the time series object, sample rate is still lacking. Such attributes can be managed by the user via structures or other methods.
+      Though other data types are available, the default is a matrix of doubles. This array type does not include a way to attach attributes such as engineering units or sampling rates. Although time and date markers were added in R1-4SP3 with the time series object, sample rate is still lacking. Such attributes can be managed by the user via structures or other methods.
 
 Array indexing is one-based which is the common convention for matrices in mathematics, but does not accommodate the indexing convention of sequences that have zero or negative indices. For instance, the DFT (or FFT) is defined with the DC component at index 1 instead of index 0, which is not consistent with the standard definition of the DFT. This one-based indexing convention is hard wired into MATLAB, making it impossible for a user to define their own zero-based or negative indexed arrays to concisely model an idea having non-positive indices.
 

@@ -148,3 +148,7 @@ conventional nonvolatile memory programmer. By combining a versatile 8-bit CPU
 with Flash on a monolithic chip, the Atmel AT89C52 is a powerful microcomputer
 which provides a highly-flexible and cost-effective solution to many embedded control
 applications.
+
+http://ascentengineers.googlecode.com/files/at89c52.jpeg
+
+http://ascentengineers.googlecode.com/files/89c52pins.jpg

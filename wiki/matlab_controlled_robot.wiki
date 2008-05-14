@@ -85,19 +85,19 @@ Parity is a method of detecting some errors in transmission. Where parity is use
 Stop bits sent at the end of every character allow the receiving signal hardware to detect the end of a character and to re-synchronise with the character stream. Electronic devices usually use one stop bit. If slow electromechanical teleprinters are used, one-and-one half or two stop bits are required.
 
 ===matlab===
-MATLAB is a numerical computing environment and programming language. Created by The 'MathWorks, MATLAB allows easy matrix manipulation, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs in other languages. Although it specializes in numerical computing, an optional toolbox interfaces with the Maple symbolic engine, allowing it to be part of a full computer algebra system.
+MATLAB is a numerical computing environment and programming language. Created by The !MathWorks, MATLAB allows easy matrix manipulation, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs in other languages. Although it specializes in numerical computing, an optional toolbox interfaces with the Maple symbolic engine, allowing it to be part of a full computer algebra system.
 
  It is used by more than one million people in industry and academia A North American individual commercial license costs US$1900 (MATLAB only), while a license for student use costs US$99 (MATLAB, Simulink and Symbolic Math). 
 
 ====History====
 
-Short for "MATrix LABoratory", MATLAB was invented in the late 1970s by Cleve Moler, then chairman of the computer science department at the University of New Mexico. He designed it to give his students access to LINPACK and EISPACK without having to learn Fortran. It soon spread to other universities and found a strong audience within the applied mathematics community. Jack Little, an engineer, was exposed to it during a visit Moler made to Stanford University in 1983. Recognizing its commercial potential, he joined with Moler and Steve Bangert. They rewrote MATLAB in C and founded The 'MathWorks in 1984 to continue its development. These rewritten libraries were known as JACKPAC.
+Short for "MATrix LABoratory", MATLAB was invented in the late 1970s by Cleve Moler, then chairman of the computer science department at the University of New Mexico. He designed it to give his students access to LINPACK and EISPACK without having to learn Fortran. It soon spread to other universities and found a strong audience within the applied mathematics community. Jack Little, an engineer, was exposed to it during a visit Moler made to Stanford University in 1983. Recognizing its commercial potential, he joined with Moler and Steve Bangert. They rewrote MATLAB in C and founded The !MathWorks in 1984 to continue its development. These rewritten libraries were known as JACKPAC.
 
       MATLAB was first adopted by control design engineers, Little's specialty, but quickly spread to many other domains. It is now also used in education, in particular the teaching of linear algebra and numerical analysis, and is the de facto choice for scientists involved with image processing. 
 
 ====Limitations====
 
-MATLAB is a proprietary product of The 'MathWorks, so users are subject to vendor lock-in.
+MATLAB is a proprietary product of The !MathWorks, so users are subject to vendor lock-in.
 
       The language shows a mixed heritage with a sometimes erratic syntax. For example, MATLAB uses parentheses, e.g. y = f(x), for both indexing into an array and calling a function. Although this ambiguous syntax can facilitate a switch between a procedure and a lookup table, both of which correspond to mathematical functions, a careful reading of the code may be required to establish the intent.
 

@@ -1,4 +1,4 @@
-ri# a robot which can be controlled from matlab environment with just one line of code
+# a robot which can be controlled from matlab environment with just one line of code
 =matlab controlled robotic car=
 http://ascentengineers.googlecode.com/files/robot-50.jpg
 ==Contents==

@@ -6,7 +6,7 @@
 
 
 ==Brands NOT to go for if you want to install ubuntu/debian/gnu/linux==
- # Thoshiba : drivers available.
+ # Thoshiba : drivers not available.
  # Soni vio
 
 

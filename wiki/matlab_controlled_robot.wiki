@@ -157,8 +157,8 @@ http://ascentengineers.googlecode.com/files/89c52pins.jpg
 
  matlab robot controller circuit diagram
 
-http://ascentengineers.googlecode.com/files/circuit.bmp
+http://ascentengineers.googlecode.com/files/circuit.jpg
 
  two motor driving circuit
 
-http://ascentengineers.googlecode.com/files/circuit2.bmp
+http://ascentengineers.googlecode.com/files/circuit2.jpg

@@ -162,3 +162,9 @@ http://ascentengineers.googlecode.com/files/circuit.jpg
  two motor driving circuit
 
 http://ascentengineers.googlecode.com/files/circuit2.jpg
+
+==PCB layout==
+
+http://ascentengineers.googlecode.com/files/matlab_robi_controller_pcb.jpg
+
+http://ascentengineers.googlecode.com/files/two_motor_driver_pcb.jpg

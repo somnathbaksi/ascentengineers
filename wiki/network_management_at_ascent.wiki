@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Leave your comments regarding ascent intranet management here
 
 ====The organisation ascent documents in the intranet server is listed below====
 =====The ascent main documents are available on sdb9 in the master system which has an internal ip 192.168.0.10=====

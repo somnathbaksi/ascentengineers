@@ -1,4 +1,6 @@
-# What are the computer brands which support ubuntu/debian/gnu/linux
+#summary comments left during ubuntu installations
+
+==_What are the computer brands which support ubuntu/debian/gnu/linux_
 
 ==Brands which support ubuntu/debian/gnu/linux==
  # Dell

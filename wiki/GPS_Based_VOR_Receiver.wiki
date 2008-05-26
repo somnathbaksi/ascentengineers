@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary GPS based VOR calibration meter
 
 = GPS Based VOR Receiver =
 

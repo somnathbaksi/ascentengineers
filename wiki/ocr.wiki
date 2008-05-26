@@ -1,5 +1,5 @@
+#summary ocr coding in matlab
 #labels ocr
-#ocr coding in matlab
 
 = Introduction =
 

@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Leave your comments regarding ascents website management here
 
 = Introduction =
 those who have administrative rights, can edit our web page here........

@@ -14,7 +14,7 @@ ascentengineers.......................
 
 
 
-So what Junise said..
+*So what Junise said..
 Gps is navigation system...basically implemented for military purpose....but now open to public usage...
 GPS works on a concept called triangulation....Its technique of determining the position by taking time delay from 3 satellites -minimum.. 
 ==GPS interfacing==

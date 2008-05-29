@@ -1,4 +1,19 @@
 #labels unconference,share,learn,evolve,mathematics,technology,science
+=share learn evolve=
+
+	the freedom of sharing, the aesthetics of learning and the prudence of evolution happens for the third time @ ascent on 31/05/08 saturday from 9 am to 4 pm
+
+The agenda for the unconference:
+	ubuntu/debian/gnu/linux
+	image processing
+	VHDL etc
+
+come forward to share, learn and evolve.
+
+ascentengineers
+
+
+
 So what Junise said..
 Gps is navigation system...basically implemented for military purpose....but now open to public usage...
 GPS works on a concept called triangulation....Its technique of determining the position by taking time delay from 3 satellites -minimum.. 

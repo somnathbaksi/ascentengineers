@@ -24,21 +24,21 @@
 
 ====main projects====
 
-#voice seperation
-#gps based VOR analyser
-#ABS using VHDL
-#air navigation transceiver
-#fuzzy logic robotic path  controlling
-#pitch tracker
-#watermarking using DCT
-#lisence plate recognision
-#analog radio communication
-#air traffic management systems
+ #voice seperation
+ #gps based VOR analyser
+ #ABS using VHDL
+ #air navigation transceiver
+ #fuzzy logic robotic path  controlling
+ #pitch tracker
+ #watermarking using DCT
+ #lisence plate recognision
+ #analog radio communication
+ #air traffic management systems
 
 
 
 ==== mtech projects====
 
-#neuro fuzzy control systems and classifiers
-#chaotic systems
-#robotics
+ #neuro fuzzy control systems and classifiers
+ #chaotic systems
+ #robotics

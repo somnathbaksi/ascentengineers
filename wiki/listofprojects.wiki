@@ -51,4 +51,4 @@
    # dsp kits
    # logic analyser
    # micro controllers*
-[http://ascentengineers.org]
+[http://http://ascentengineers.googlepages.com/project%2Cseminar%26lab]

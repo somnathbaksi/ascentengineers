@@ -1,37 +1,41 @@
+#summary archive of projects @ ascent
 =list of projects for which consultancy has been offered by ascent=
 
 ===*btech*===
 ====mini projects====
 
  # code lock
- # heart beat count
+ # heart beat counter
  #power supply frequency counter
  #power factor meter
  #thermometer
  #ultra sound distance meter
- #bulgar alarm
+ #burglar alarm
  #pc based function generator
- #parking facilitator
+ #car parking facilitator
  #omr reader
  #matlab controlled robot
- #remot controlled robot
+ #remote controlled robot
  #path controlled robot
  #electronic speed governor
  #car over heating alarm
- #automatic phase change of switch
+ #automatic phase changer for three phase wiring
  #power factor meter
  #alcohol sensor
 
 ====main projects====
 
- # voice seperation
+ # pitch based voice seperation
  # gps based VOR analyser
- # ABS using VHDL
+ # ABS system on FPGA
  # air navigation transceiver
- # fuzzy logic robotic path  controlling
+ # guided vehicle path optimisation
+ # genetic algorithm based control system optimisation
+ # neuro fuzzy control systems
+ # artificial intelligence
  # pitch tracker
  # watermarking using DCT
- # lisence plate recognision
+ # vehicle number plate recognition
  # analog radio communication
  # air traffic management systems
 
@@ -45,10 +49,10 @@
 
 * we are also providing consultancy for
 
-*  
    # fpga kit
    # plcs
    # dsp kits
    # logic analyser
-   # micro controllers*
+   # micro controllers
+
 [http://ascentengineers.googlepages.com/project%2Cseminar%26lab]

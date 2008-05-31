@@ -6,6 +6,9 @@
  # faculties  : this folder will be emptied soon as all faculties will be given individual login
  # library
   # datasheet
+    # Hall-effect switches
+    # lm135
+    # lm3915
   # syllabus
   # text books
  # management

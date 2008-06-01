@@ -24,7 +24,7 @@ After that kake explained about a project using *PLCs* ..
 
 Next *VHDL* was  selected  for discussion . Kake gave insight to the method of writing VHDL programs , and  briefly explained about the entity declaration , structural ,behavioural, dataflow architectures etc..
 
-later we familiarised the *xilinx fpgas* tool by writing codes for a digital counter.
+later we familiarised the *xilinx fpga* tool by writing codes for a digital counter.
 
 The next turn is for Nithin and he explained about the work he is presently doing in *image processing* . He also gave a brief insight to technique of *water marking*. 
 

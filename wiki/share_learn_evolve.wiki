@@ -22,13 +22,13 @@ Junise also shared some idea about the Ubuntu with the group.
 
 After that kake explained about a project using *PLCs* ..
 
-Next *VHDL* was  selected  for discussion . Kake gave some insight into the masking process. 
+Next *VHDL* was  selected  for discussion . Kake gave insight to the method of writing VHDL programs , and  briefly explained about the entity declaration , structural ,behavioural, dataflow architectures etc..
 
 later we familiarised the *xilinx fpgas* tool by writing codes for a digital counter.
 
-Later nithin explained about the work he s presently doing in *image processing* . He gave a brief insight to technique of *water marking*. 
+The next turn is for Nithin and he explained about the work he is presently doing in *image processing* . He also gave a brief insight to technique of *water marking*. 
 
-Kake then introduced a new tool named *'lyx'* in which we can make word documents in any format like IEEE format  etc by only selecting options from the menu and just typing the contents.
+Kake then introduced a new tool named *'lyx'* in which we can make word documents in any formats like IEEE format  etc by only selecting options from the menu and just typing the contents.
 
  By 1 pm we wind up the program.
 --------------------------------------------------------------------------------------------

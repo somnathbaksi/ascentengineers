@@ -14,11 +14,11 @@ The program started by 10 am by kake , junise ,vineeth haseeb , akhila . ... and
  # LYX......*
 
 
-The first topic  selected was *ubuntu*.
+The first topic  selected was *Ubuntu*.
  
 Kake gave a brief introduction to the topic  touching points abt the flexibility of linux , virus free environment  ,  no need of  system format , no case of  system crash  etc ..unlike the windows operating system.
 
-Junise also shared some idea about the Ubuntu with the group.
+Junise also shared some ideas about the Ubuntu with the group.
 
 After that kake explained about a project using *PLCs* ..
 

@@ -6,12 +6,12 @@ The third phase of *share learn evolve* was held on 31st may
 2008. 
 The program started by 10 am by kake , junise ,vineeth haseeb , akhila . ... and of course MANOJ THE GREAT
 
-the agenda for the program are:
+*The agenda for the program are:
  # Ubuntu
  # VHDL
  # PLCS
  # IMAGE PROCESSING
- # LYX......
+ # LYX......*
 
 
 The first topic  selected was *ubuntu*.

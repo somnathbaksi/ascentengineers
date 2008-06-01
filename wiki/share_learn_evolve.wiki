@@ -1,9 +1,8 @@
 #labels unconference,share,learn,evolve,mathematics,technology,science
-
 		           	=Share learn evolve=
 
 
-The third phase of share learn evolve was held on 31st may 
+The third phase of *share learn evolve* was held on 31st may 
 2008. 
 The program started by 10 am by kake , junise ,vineeth haseeb , akhila . ... and of course MANOJ THE GREAT
 
@@ -15,33 +14,24 @@ the agenda for the program are:
  # LYX......
 
 
-The first topic  selected was ubuntu. Kake gave a brief introduction to the topic  touching points abt the flexibility of linux , virus free environment  ,  no need of  system format , no case of  system crash  etc unlike the windows operating system.
+The first topic  selected was *ubuntu*.
+ 
+Kake gave a brief introduction to the topic  touching points abt the flexibility of linux , virus free environment  ,  no need of  system format , no case of  system crash  etc ..unlike the windows operating system.
 
 Junise also shared some idea about the Ubuntu with the group.
-After that kake explained about a project using PLCs as a part of project at nit.
 
-Next VHDL was  selected  for discussion . Kake gave some insight into the masking process. 
-later we familiarised the xilinx fpgas tool by writing code for a digital counter.
+After that kake explained about a project using *PLCs* ..
 
-Later nithin explained about the work he s presently doing in image processing . He gave a brief insight to technique of water marking. 
-Kake then introduced a new tool named 'lyx' in which we can make word documents in any format like IEEE format  etc by only selecting options from the menu and just typing the words.
+Next *VHDL* was  selected  for discussion . Kake gave some insight into the masking process. 
+
+later we familiarised the *xilinx fpgas* tool by writing codes for a digital counter.
+
+Later nithin explained about the work he s presently doing in *image processing* . He gave a brief insight to technique of *water marking*. 
+
+Kake then introduced a new tool named *'lyx'* in which we can make word documents in any format like IEEE format  etc by only selecting options from the menu and just typing the contents.
+
  By 1 pm we wind up the program.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--------------------------------------------------------------------------------------------
 
 *NEW*
 =share learn evolve=

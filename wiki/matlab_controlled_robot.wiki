@@ -172,4 +172,4 @@ http://ascentengineers.googlecode.com/files/two_motor_driver_pcb.jpg
 
 ==Circuit Description and Working==
 
-to communicate with the pc and the external pc, we used matlab as the media
+to communicate with the pc and the external circuit, we used matlab as the media. the 

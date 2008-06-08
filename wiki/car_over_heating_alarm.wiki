@@ -2,9 +2,9 @@
    To detect the overheating of car engine in order to prevent its damage by an audio indication.
 *INTRODUCTION*
    We have used in the circuit a LM35 developed by National Semiconductor and also the circuit includes an amplifier section,a comparator and a 555 Timer for audio production 
-   The circuit idea has been taken from EFY.Further modifications are made and developed a suitable circuit. The circuit works and gives an audio indication when the car engine's temperature rises beyond a fixed temperature.Although cars have a temperature gauge they do not give any warning in  case of over heating.It is quite possible to overlook the reading shown by the pointer.
-   When the engine is heated beyond a fixed level the engine get damaged quickly.Initially the circuit considered are as shown below.
+         The circuit idea has been taken from EFY.Further modifications are made and developed a suitable circuit. The circuit works and gives an audio indication when the car engine's temperature rises beyond a fixed temperature.Although cars have a temperature gauge they do not give any warning in  case of over heating.It is quite possible to overlook the reading shown by the pointer.
+          When the engine is heated beyond a fixed level the engine get damaged quickly.Initially the circuit considered are as shown below.
    Instead of voltage divider by 4.7k and Thermistor GL16.We use LM35 because the fore said element is not available widely in electronic shops.    
 *DESCRIPTION*
    The block diagram shows a general idea about the device.The circuit includes a temperature sensor which sense the temperature of engine which is in contact.We selected LM35 as a temperature sensor.The signal produced by temperature sensor is very weak.So it is to be amplified.For the purpose we need to use an amplifier along with the comparator.For this purpose two OP-AMPs should be used.For simplification we used LM324 IC which is a quart OP-AMP.LM324 having its fourth pin as Vcc and eleventh pin as ground.
-   The output of amplifiers is directly given to comparator input.Then a 555 Timer follows the comparator output which is used for audio indication purpose.A 12V supply should be given to the circuit. 
+          The output of amplifiers is directly given to comparator input.Then a 555 Timer follows the comparator output which is used for audio indication purpose.A 12V supply should be given to the circuit. 

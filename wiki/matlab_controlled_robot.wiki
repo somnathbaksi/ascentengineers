@@ -169,3 +169,7 @@ http://ascentengineers.googlecode.com/files/circuit2.jpg
 http://ascentengineers.googlecode.com/files/matlab_robi_controller_pcb.jpg
 
 http://ascentengineers.googlecode.com/files/two_motor_driver_pcb.jpg
+
+==Circuit Description and Working==
+
+to communicate with the pc and the external pc, we used matlab as the media

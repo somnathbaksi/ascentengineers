@@ -15,7 +15,7 @@ ALGORITHm
  # Read the input key
  # switch on the motor
  # If signal=1,inc count 
- else compare count and keyread
+    else compare count and keyread
  # If count<keyread,switch off the motor
     else switch on the motor
  # If count>keyread,go to step3

@@ -23,4 +23,4 @@
  # If count<keyread,switch off the motor
     else switch on the motor
  # If count>keyread,go to step3
-    else check signal=1
+    else switch off the motor

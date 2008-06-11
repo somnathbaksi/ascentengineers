@@ -3,8 +3,7 @@ The fourth phase of *share learn evolve* will held on 18 th June 2008
 * The agenda for the program are:
  1.Ubuntu (marketing)
  2. QT
- 3.Image processing ...*		           	=Share learn evolve=
-
+ 3.Image processing ...*		           	
 
 The third phase of *share learn evolve* was held on 31st may 
 2008. 

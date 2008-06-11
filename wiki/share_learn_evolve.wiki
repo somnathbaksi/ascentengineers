@@ -1,9 +1,9 @@
 #labels unconference,share,learn,evolve,mathematics,technology,science
-The fourth phase of *share learn evolve* was held on 18 th June 2008
+The fourth phase of *share learn evolve* will held on 18 th June 2008
 * The agenda for the program are:
-# Ubuntu (marketing)
-# QT
-# Image processing ...*		           	=Share learn evolve=
+ 1.Ubuntu (marketing)
+ 2. QT
+ 3.Image processing ...*		           	=Share learn evolve=
 
 
 The third phase of *share learn evolve* was held on 31st may 

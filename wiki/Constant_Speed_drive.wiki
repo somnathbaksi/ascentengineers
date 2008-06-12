@@ -24,3 +24,28 @@
     else switch on the motor
  # If count>keyread,go to step3
     else switch off the motor
+
+
+
+
+
+Program 
+ '#'include<reg51.h> 
+ sbit motor=P2^n 0 
+ sbit signal= P2^n 1
+  void main()
+   {
+     int count,key read;
+
+     key read=P1
+
+     for(count=0;signal1&&count<255;count++);
+ 
+     if(count<key read)
+
+     motor=1 
+
+     if(count>key read)
+
+     motor =0
+   }

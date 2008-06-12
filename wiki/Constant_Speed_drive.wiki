@@ -1,4 +1,4 @@
-#summary Drive the dc motor in a specified speed irrespective of what the load used.
+#summary Drive the dc motor in a specified speed irrespective of whatever the load used.
 
 = Introduction=
 

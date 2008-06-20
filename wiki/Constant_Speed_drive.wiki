@@ -35,7 +35,8 @@ the principle of operation inthis project is pulse width modulation. in order to
 
 
 Program 
- '#'include<reg51.h> 
+ {{{
+ #include<reg51.h> 
  sbit motor=P2^n 0 
  sbit signal= P2^n 1
   void main()
@@ -54,3 +55,4 @@ Program
 
      motor =0
    }
+}}}

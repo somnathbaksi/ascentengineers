@@ -1,0 +1,7 @@
+#summary this project is design and implement an automated intelligent system for diagnosis of chronic leukemias.
+#labels lieumia,intelligentsystem
+
+
+*to nithin*
+what you have shared with me over google docs is good.
+now discuss here, with images and symptoms the diseases for which we are going to find out a method for diagnosis

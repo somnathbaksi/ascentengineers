@@ -9,6 +9,8 @@ http://en.wikipedia.org/wiki/Image:Amb2.svg
 = Details =
 
     Magnetic bearings support moving machinery without physical contact, for example, they can levitate a rotating shaft and permit relative motion without friction or wear. For long it is  considered a promising advancement, they are now moving beyond promise into actual service in such industrial applications as electric power generation, petroleum refining, machine tool operation and natural gas pipelines.
+     
+     This magnetic bearing is similar to an electric motor. It has a laminated rotor and stator made of cobalt steel. Wound around the stator are a series of electrical wire coils that form a series of electric magnets around the circumference. The magnets exert a force on the rotor. A probe senses the position of the rotor, and a feedback controller keeps it in the center of the cavity. The engine rotor, bearings, and case form a flexible structure that contains a large number of modes. The bearing feedback controller, which could cause some of these modes to become unstable, could be adapted to varying flight conditions to minimize seal clearances and monitor the health of the system.
 
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_

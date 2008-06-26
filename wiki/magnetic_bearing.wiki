@@ -7,9 +7,9 @@ Add your content here.
 http://en.wikipedia.org/wiki/Image:Amb2.svg
 
 = Details =
-{
-  aaaaaaaaaaaaaaaa
-}
+
+   = Magnetic bearings support moving machinery without physical contact, for example, they can levitate a rotating shaft and permit relative motion without friction or wear. For long it is  considered a promising advancement, they are now moving beyond promise into actual service in such industrial applications as electric power generation, petroleum refining, machine tool operation and natural gas pipelines.=
+
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists

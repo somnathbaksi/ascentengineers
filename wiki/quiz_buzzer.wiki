@@ -5,7 +5,20 @@ INTRODUCTION
              When a microcontroller receives an input from any of seven tactile switches (S1 through S7),it disables the inputs from the rest of the switches assigned to other players.A master reset control (switch 0) has to be pressed to enable all the inputs for the next round of the quiz.   
 
 = Details =
-
+CIRCUIT DESCRIPTION
+              A 9V DC supply from either a dry cell or a battery eliminator circuit is regulated by IC 7805.The regulated 5V DC obtained is used to power the circuit.The glowing of LED1 indicates the presence of power in the circuit.The circuit for the Fastest-Finger-First using microcontroller AT89C51.
+MICROCONTROLLER AT89C51
+              At the heart of the circuit is flash-based microcontroller IC AT89C51.It is a low-power ,high perfomance CMOS 8-bit microcomputer with 4KB of flash programmable and erasable read-only memory(PEROM).It is manufactured using Atmel's high-density,non-volatile memory technology and is compatible with the industry-standard MCS-51 instruction set.The on-chip flash allows the program memory to be reprogrammed in-system or by aconventional non-volatile memory programmer.    
+              Combining a versatile 8-bit CPU with flash on a monolithic chip,the Atmel AT89C51 is a powerful microcontrollerthat provides a highly flexible and cost-effective solution to many embedded control applications.
+              The AT89C51 provides the following standard features:
+                  1. 4KB flash
+                  2. 128 bytes of RAM
+                  3. 32 I/O lines
+                  4. Two 16-bit timers/counters
+                  5. A 5-vector,two-level interrupt architecture
+                  6. A full duplex serial port
+                  7. On-chip oscillator and clock circuitry.
+              Here port0 and port1 are used as input and output ports respectively.
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists

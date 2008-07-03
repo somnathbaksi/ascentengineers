@@ -25,7 +25,8 @@ Port-1:Port-1 is an 8-bidirectional I/O port with internal pull-ups.The port-1 o
               The microcontroller continuously waits for the input from button switch S0 at port 0.When the controller detects closure of switch S0,it starts cheaking the inputs from other switches/players.On detecting an input,it cheaks which switch(corresponding to player)has been pressed.The 'player number' information relating to each input is already stored in the flash memory and the input data is related to the information stored in the memory.If a specific match is found,the program control shifts the corresponding data into output port-1 buffer.The information is instantly displayed on display LT542.During this time,if any other switch is also pressed,we can hear the beep sound but the controller will notrecognise that request unless the control reset button switch (S0) is pressed once again.
 DUAL FOUR-INPUT OR GATE(CD 4072)
 
-              
+              A beep sound is produced using CD4072 whenever any ofinput switches S0 through S7 is pressed.
+              Input pins 2 through
 Add your content here.  Format your content with:
   * Text in *bold* or _italic_
   * Headings, paragraphs, and lists

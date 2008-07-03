@@ -1,9 +1,8 @@
 #summary this project can be used in quizes, anthaksharies etc
 
-= Introduction =
-
-Add your content here.
-
+INTRODUCTION 
+             Useful for quiz games,dumb charades etc.This fastest-finger-first circuit displays the player number along with beep sound when a specific player presses the button before others.It is designed for seven players and can be constructed easily using minimal hardware and software.
+             When a microcontroller receives an input from any of seven tactile switches (S1 through S7),it disables the inputs from the rest of the switches assigned to other players.A master reset control (switch 0) has to be pressed to enable all the inputs for the next round of the quiz.   
 
 = Details =
 

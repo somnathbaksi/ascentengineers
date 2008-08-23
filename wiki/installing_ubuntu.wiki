@@ -2,16 +2,7 @@
 
 ==_What are the computer brands which support ubuntu/debian/gnu/linux_==
 
-==Brands which support ubuntu/debian/gnu/linux==
- # Dell
- # HCL : not bad
+===Brands which support ubuntu/debian/gnu/linux ===
+ 
+ you can use any brand desktop/laptop while using ubuntu 8.04 hardy edition. but you will be having some problems with the *wifi* driver installations. this can be solved by installing a software named *ndisgtk* with which you can install the windows wifi driver in linux.
 
-
-==Brands NOT to go for if you want to install ubuntu/debian/gnu/linux==
- # Thoshiba : drivers not available.
- # Soni vio
-
-
-sevrvice centre contact
-
-http://www.csd.toshiba.com/cgi-bin/tais/su/su_gaspLocatorDetail.jsp?coid=1625122&lang=0&BV_SessionID=@@@@1108635142.1210760016@@@@&BV_EngineID=cccjadeedjikidecgfkceghdgngdgnj.0

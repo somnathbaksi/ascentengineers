@@ -1,0 +1,27 @@
+# Introduction #
+
+Robot, a versatile mechanical device, is generally available in the form of a manipulator arm, a mobile vehicle, a free-flying platform, a multi-joint multi-fingered hand or a combination of these. There are basically two types of mobile robots, namely _wheeled robot_ and _legged robot_.
+
+**A wheeled robot** is suitable for a smooth terrain and is more energy efficient and easier to control. On the other hand, a **legged robot** can operate well in hostile environments and promises a high degree of terrain adaptivity and maneuverability. However, it has a complex structure and poor controllability. Current research in robotics aims to build autonomous and intelligent robotic systems to meet the increasing industrial demand for automatic manufacturing systems.
+An autonomous robot should be able to perform the following tasks:
+  1. Obtaining information of the environment using visual or auditory sensors,
+  1. Building world model,
+  1. Decision making
+  1. Motion planning
+  1. Learning from past experience to improve performance
+
+
+An autonomous vehicle has the following advantages:
+  1. it is capable of handling minor uncertainties. Thus, it need not be re-programmed  always, if there is a minor change in the environment.
+  1. it reduces the down-time needed for re-programming
+  1. it can work in hazardous environments
+
+the page is contributed by jackson
+
+
+# Details #
+
+Add your content here.  Format your content with:
+  * Text in **bold** or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages

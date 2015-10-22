@@ -1,0 +1,174 @@
+# matlab controlled robotic car #
+![http://ascentengineers.googlecode.com/files/robot.jpg](http://ascentengineers.googlecode.com/files/robot.jpg)
+
+## Contents ##
+  1. Introduction
+  1. Objectives
+  1. Design overview
+  1. Literature Review
+    1. Matlab
+      * Serial Communication with Matlab
+    1. Microcontroller
+    1. RS232 Communication
+  1. Circuit Diagram and Explanation
+    1. RS232 Interfacing
+    1. Microcontroller
+    1. Motor Driver
+  1. PCB layout
+  1. Software explanation
+  1. Testing and Verification
+  1. Advantages of the system
+  1. Scope for future developments
+  1. Conclusion
+  1. References
+
+
+# Introduction #
+
+### 'robot' an overview ###
+There are many variations in definitions of what exactly is a robot. Therefore, it is sometimes difficult to compare number of robots in different countries. To try to provide a universally acceptable definition, the International Organisation for Standardisation gives a definition of robot in ISO 8373, which defines a robot as "an automatically controlled, reprogrammable, multipurpose, manipulator programmable in three or more axes, which may be either fixed in place or mobile for use in industrial automation applications."
+
+> Matlab is the world's most recommended programming language for mathematical computations.
+There are a plenty of control system designs in matlab for controlling robot. ascent has already developed a fuzzy neuro control system for a guided vehicle to operate in underground coal mines.
+
+
+## objectives ##
+
+Matlab is the world's most recommended programming language for mathematical computations. It is very convenient to design complex control system for controlling robots in matlab. But in order to implement these control systems, the code has to be converted to c language to be burnt on to the microcontroller used in the robot. Many a times, if not always, the control system is too heavy in terms of memory consumption and process power requirement for a microcontroller system to work with. Hence it would be good idea if the control system is implemented in matlab in a pc and by establishing a duplex link between robot and the pc.
+> The objective of this project is to design a robot which can be controlled from matlab environment. The robot is to have two traction wheels and by varying the angular velocity of the wheels, the direction and speed of the robot can be controlled.  A microcontroller take care of controlling these wheels. The microcontroller has also to be designed for receiving serial data through it's UART port. A function is to be developed in matlab which sends out four different codes to the robot, through its serial port. The four code words are stop, move forward, move right and move left.
+
+## Design Overview ##
+
+### block diagram ###
+
+http://ascentengineers.googlecode.com/files/matlab_robot_block_diagram.JPG
+
+
+## Literature Review ##
+
+### Serial Port Communication ###
+
+A serial port is a serial communication physical interface through which information transfers in or out one bit at a time. Throughout most of the history of personal computers, data transfer through serial ports connected the computer to devices such as terminals and various peripherals. While such interfaces as Ethernet, FireWire, and USB all send data as a serial stream, the term "serial port" usually identifies hardware more or less compliant to the RS-232 standard, intended to interface with a modem or with a similar communication device.
+
+#### connectors ####
+
+While the RS-232 standard originally specified a 25-pin D-type connector, many designers of personal computers chose to implement only a subset of the full standard: they traded off compatibility with the standard against the use of less costly and more compact connectors (in particular the DE-9 version used by the original IBM PC-AT). Presence of a nine pin D-subminiature connector is neither necessary nor sufficient to indicate use of a serial port.
+
+![http://ascentengineers.googlecode.com/files/serial%20port%20mail%20D%20connector.jpg](http://ascentengineers.googlecode.com/files/serial%20port%20mail%20D%20connector.jpg)
+
+> Some miniaturized electronics, particularly graphing calculators and to a lesser extent handheld amateur and two-way radio equipment, have serial ports using a jack plug connector, usually the smaller 2.5 or 3.5mm connectors and use the most basic 3-wire interface.
+
+#### settings in serial communication ####
+
+Many settings are required for serial connections used for asynchronous start-stop communication, to select speed, number of data bits per character, parity, and number of stop bits per character. In modern serial ports using a UART integrated circuit, all settings are usually software-controlled; hardware from the 1980s and earlier may require setting switches or jumpers on a circuit board. One of the simplifications made in such serial bus standards as Ethernet, FireWire, and USB is that many of those parameters have fixed values so that users can not and need not change the configuration; the speed is either fixed or automatically negotiated. Often if the settings are entered incorrectly the connection will not be dropped however any data sent will be received on the other end as nonsense.
+
+#### speed ####
+
+Serial ports use two-level (binary) signaling, so the data rate in bits per second is equal to the symbol rate in baud. These rates are based on multiples of the rates for electromechanical teleprinters. The port speed and device speed must match, though some devices may automatically detect the speed of the serial port. Though the RS-232 standard is formally limited to 20,000 bits per second, serial ports on popular personal computers allow for much higher baud rates; the capability to set a bit rate does not imply that a working connection will result. Not all bit rates are possible with all serial ports. Some special-purpose protocols such as MIDI for musical instrument control, use serial data rates other than the above series.
+
+> The speed includes bits for framing (stop bits, parity, etc.) and so the effective data rate is lower than the bit transmission rate. For example 8-N-1 encoding only 80% of the bits are available for data (for every eight bits of data, two more framing bits are sent).
+
+#### data bits ####
+
+The number of data bits in each character can be 5 (for Baudot code), 6 (rarely used), 7 (for true ASCII), 8 (for any kind of data, as this matches the size of a byte), or 9 (rarely used). 8 data bits are almost universally used in newer applications. 5 or 7 bits generally only make sense with older equipment such as teleprinters.
+
+> Most serial communications designs send the data bits within each byte LSB (Least Significant Bit) first. This standard is also referred to as "little endian". Also possible, but rarely used, is "big endian" or MSB (Most Significant Bit) first serial communications. The order of bits is not usually configurable, but data can be byte-swapped only before sending.
+
+#### parity ####
+
+Parity is a method of detecting some errors in transmission. Where parity is used with a serial port, an extra data bit is sent with each data character, arranged so that the number of 1 bits in each character, including the parity bit, is always odd or always even. If a byte is received with the wrong number of 1 bits, then it must have been corrupted. If parity is correct there may have been no errors or an even number of errors. Electromechanical teleprinters were arranged to print a special character when received data contained a parity error, to allow detection of messages damaged by line noise. A single parity bit does not allow implementation of error correction on each character, and communication protocols working over serial data links will have higher-level mechanisms to ensure data validity and request retransmission of data that has been incorrectly received.
+
+> The parity bit in each character can be set to none (N), odd (O), even (E), mark (M), or space (S). None means that no parity bit is sent at all. Mark parity means that the parity bit is always set to the mark signal condition (logical 1) and likewise space parity always sends the parity bit in the space signal condition. Aside from uncommon applications that use the 9th (parity) bit for some form of addressing or special signaling, mark or space parity is uncommon, as it adds no error detection information. Odd parity is more common than even, since it ensures that at least one state transition occurs in each character, which makes it more reliable. The most common parity setting, however, is "none", with error detection handled by a communication protocol.
+
+#### stop bits ####
+
+Stop bits sent at the end of every character allow the receiving signal hardware to detect the end of a character and to re-synchronise with the character stream. Electronic devices usually use one stop bit. If slow electromechanical teleprinters are used, one-and-one half or two stop bits are required.
+
+### matlab ###
+MATLAB is a numerical computing environment and programming language. Created by The MathWorks, MATLAB allows easy matrix manipulation, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs in other languages. Although it specializes in numerical computing, an optional toolbox interfaces with the Maple symbolic engine, allowing it to be part of a full computer algebra system.
+
+> It is used by more than one million people in industry and academia A North American individual commercial license costs US$1900 (MATLAB only), while a license for student use costs US$99 (MATLAB, Simulink and Symbolic Math).
+
+#### History ####
+
+Short for "MATrix LABoratory", MATLAB was invented in the late 1970s by Cleve Moler, then chairman of the computer science department at the University of New Mexico. He designed it to give his students access to LINPACK and EISPACK without having to learn Fortran. It soon spread to other universities and found a strong audience within the applied mathematics community. Jack Little, an engineer, was exposed to it during a visit Moler made to Stanford University in 1983. Recognizing its commercial potential, he joined with Moler and Steve Bangert. They rewrote MATLAB in C and founded The MathWorks in 1984 to continue its development. These rewritten libraries were known as JACKPAC.
+
+> MATLAB was first adopted by control design engineers, Little's specialty, but quickly spread to many other domains. It is now also used in education, in particular the teaching of linear algebra and numerical analysis, and is the de facto choice for scientists involved with image processing.
+
+#### Limitations ####
+
+MATLAB is a proprietary product of The MathWorks, so users are subject to vendor lock-in.
+
+> The language shows a mixed heritage with a sometimes erratic syntax. For example, MATLAB uses parentheses, e.g. y = f(x), for both indexing into an array and calling a function. Although this ambiguous syntax can facilitate a switch between a procedure and a lookup table, both of which correspond to mathematical functions, a careful reading of the code may be required to establish the intent.
+
+Many functions have a different behavior with matrix and vector arguments. Since vectors are matrices of one row or one column, this can give unexpected results. For instance, function sum(A) where A is a matrix gives a row vector containing the sum of each column of A, and sum(v) where v is a column or row vector gives the sum of its elements; hence the programmer must be careful if the matrix argument of sum can degenerate into a single-row array. While sum and many similar functions accept an optional argument to specify a direction, others, like plot, do not, and require additional checks. There are other cases where MATLAB's interpretation of code may not be consistently what the user intended (e.g. how spaces are handled inside brackets as separators where it makes sense but not where it doesn't, or backslash escape sequences which are interpreted by some functions like fprintf but not directly by the language parser because it wouldn't be convenient for Windows directories). What might be considered as a convenience for commands typed interactively where the user can check that MATLAB does what the user wants may be less supportive of the need to construct reusable code.
+
+> Though other data types are available, the default is a matrix of doubles. This array type does not include a way to attach attributes such as engineering units or sampling rates. Although time and date markers were added in `R14SP3` with the time series object, sample rate is still lacking. Such attributes can be managed by the user via structures or other methods.
+
+Array indexing is one-based which is the common convention for matrices in mathematics, but does not accommodate the indexing convention of sequences that have zero or negative indices. For instance, the DFT (or FFT) is defined with the DC component at index 1 instead of index 0, which is not consistent with the standard definition of the DFT. This one-based indexing convention is hard wired into MATLAB, making it impossible for a user to define their own zero-based or negative indexed arrays to concisely model an idea having non-positive indices.
+
+> MATLAB doesn't support references, which makes it difficult to implement data structures that contain indirections, such as open hash tables, linked lists, trees, and various other common computer science data structures. In addition, since the language is consistently call-by-value, it means that functions that modify array or object values must return and assign those modified values for the change to be persistent.
+
+
+### Serial Communication Using matlab ###
+
+As of MATLAB 6.0 (R 12), a serial port interface is provided, allowing you to connect to a computer's serial communications (COM) port. This interface is established through a serial port object, which you create using the SERIAL function. The serial port object supports functions and properties that allow you to:
+
+  * Configure serial port communications
+  * Use serial port control pins
+  * Write and read data
+  * Use events and actions
+  * Record information to disk
+
+Here is an example serial session connecting MATLAB to the serial port (COM1) with a baud rate of 4800:
+
+```
+    s = serial('COM1');
+    set(s,'BaudRate',4800);
+    fopen(s);
+    fprintf(s,'*IDN?')
+    out = fscanf(s);
+    fclose(s)
+    delete(s)
+    clear s
+
+```
+
+The `*IDN?` command above is a typical instrument command and can be replaced by any command that is valid for your specific device. `*IDN` queries the device for identification information, which is returned to out. If your device does not support this command, or if it is connected to a different serial port, you should modify the above example accordingly.
+
+> The serial port interface is supported only for Microsoft Windows, Linux, and Sun Solaris platforms.
+
+### Atmel 89C51 ###
+
+The AT89C52 is a low-power, high-performance CMOS 8-bit microcomputer with 8K                                                                                      Flash bytes of Flash programmable and erasable read only memory (PEROM). The device
+is manufactured using Atmel’s high-density nonvolatile memory technology and is
+compatible with the industry-standard 80C51 and 80C52 instruction set and pinout.
+The on-chip Flash allows the program memory to be reprogrammed in-system or by a
+conventional nonvolatile memory programmer. By combining a versatile 8-bit CPU
+with Flash on a monolithic chip, the Atmel AT89C52 is a powerful microcomputer
+which provides a highly-flexible and cost-effective solution to many embedded control
+applications.
+
+![http://ascentengineers.googlecode.com/files/at89c52.jpeg](http://ascentengineers.googlecode.com/files/at89c52.jpeg)
+
+![http://ascentengineers.googlecode.com/files/89c52pins.jpg](http://ascentengineers.googlecode.com/files/89c52pins.jpg)
+
+## Circuit Diagram ##
+
+> matlab robot controller circuit diagram
+
+![http://ascentengineers.googlecode.com/files/circuit.jpg](http://ascentengineers.googlecode.com/files/circuit.jpg)
+
+> two motor driving circuit
+
+![http://ascentengineers.googlecode.com/files/circuit2.jpg](http://ascentengineers.googlecode.com/files/circuit2.jpg)
+
+## PCB layout ##
+
+![http://ascentengineers.googlecode.com/files/matlab_robi_controller_pcb.jpg](http://ascentengineers.googlecode.com/files/matlab_robi_controller_pcb.jpg)
+
+![http://ascentengineers.googlecode.com/files/two_motor_driver_pcb.jpg](http://ascentengineers.googlecode.com/files/two_motor_driver_pcb.jpg)
+
+## Circuit Description and Working ##
+
+to communicate with the pc and the external circuit, we used matlab as the media. the

@@ -1,0 +1,105 @@
+The fourth phase of **share learn evolve** will held on 18 th June 2008
+**The agenda for the program are:
+  1. Ubuntu (marketing)
+> 2. QT
+> 3.Image processing ...**
+
+The third phase of **share learn evolve** was held on 31st may
+2008.
+The program started by 10 am by kake , junise ,vineeth haseeb , akhila . ... and of course MANOJ THE GREAT
+
+**The agenda for the program are:
+  1. Ubuntu
+  1. VHDL
+  1. PLCS
+  1. IMAGE PROCESSING
+  1. LYX......**
+
+
+The first topic  selected was **Ubuntu**.
+
+Kake gave a brief introduction to the topic  touching points abt the flexibility of linux , virus free environment  ,  no need of  system format , no case of  system crash  etc ..unlike the windows operating system.
+
+Junise also shared some ideas about the Ubuntu with the group.
+
+After that kake explained about a project using **PLCs** ..
+
+Next **VHDL** was  selected  for discussion . Kake gave insight to the method of writing VHDL programs , and  briefly explained about the entity declaration , structural ,behavioural, dataflow architectures etc..
+
+later we familiarised the **xilinx fpga** tool by writing codes for a digital counter.
+
+The next turn is for Nithin and he explained about the work he is presently doing in **image processing** . He also gave a brief insight to technique of **water marking**.
+
+Kake then introduced a new tool named **'lyx'** in which we can make word documents in any formats like IEEE format  etc by only selecting options from the menu and just typing the contents.
+
+> By 1 pm we wind up the program.
+
+---
+
+
+**NEW**
+# share learn evolve #
+
+> the freedom of sharing, the aesthetics of learning and the prudence of evolution happens for the third time @ ascent on 31/05/08 saturday from 9 am to 4 pm
+
+The agenda for the unconference:
+> ubuntu/debian/gnu/linux
+> image processing
+> > VHDL etc
+
+come forward to share, learn and evolve.
+
+ascentengineers.......................
+
+
+
+**So what Junise said..
+Gps is navigation system...basically implemented for military purpose....but now open to public usage...
+GPS works on a concept called triangulation....Its technique of determining the position by taking time delay from 3 satellites -minimum..
+## GPS interfacing ##
+speakers are junise and sreejith
+junise gave a wonderful presentation on gps interfacing with sreejith
+we are going to start it by 11.15 am
+kake**
+
+# attention all, suggest the topics you are interested to discuss #
+**and it is urgent**
+
+**kake says**
+lets start with gps interfacing by junise
+what do u people say?
+
+**sandeep says**
+i am extremely a stranger in the field of gps,wavelet or any thing practical abt electronics. so nothing to comment. people who know something can start the work.but i want an introduction to all this practical stuff. thats all!!!
+
+_suggest atleast one topic you would like to learn today_
+and we will start with it.
+kake
+
+## an unconference to be held on 18th, friday, april 08 at ascent ##
+
+# share - learn - evolve #
+
+it is an unconference ie. let's meet, share our ideas, learn from friends and evolve into better beings on friday, the 18th of april, 08 at ascent. all are welcome. a few of the topics we are going to discuss are wavelets gps interfacing neuro fuzzy systems image processing embeded systems etc....
+
+keep posting your comments
+all are welcome to the program and contribute here
+
+
+## Details ##
+
+  1. gather what the delegates are actually looking for
+  1. what are the topics delegates would love to present here
+
+### kake would like to know ###
+  1. gps interfacing with micro-controller
+  1. inverse wavelet transform : a conceptual understanding
+
+### kake would like to share ###
+  1. the concept wiki
+
+**friends, write down your interests and aspirations**
+its very good idea.
+
+_great platform to acquire & share knowledge._
+...nikhil.r

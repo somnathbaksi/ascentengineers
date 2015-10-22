@@ -1,0 +1,49 @@
+# manoj writes #
+
+> I tried to confine myself, not to go to the forbidden patch of criticizing your mission. But however strongly I try to confine myself, a very much intense tempest inside me made me write this.
+
+I was sanctified enough to have a chance to sit with you technocrats, yesterday. One fact, which I felt, was interesting though I don’t want to detail out regarding that here. What I felt is this. Your knowledge level is very much premature and hence the discussion made me really puzzled. I just was wondering because it was only yesterday that I came to know how much irrelevant your topics are, which you often tried to make me believe as something similar to Castalic discussions through your filthy verbal vomiting. What you were speaking about are things, which even illiterate like me and my friends know. You may now think that I speak like you people, with authenticity based on bubble foundations. I will say why I speak like this, later.
+
+But honestly I just don’t mind whether you people grow or not, in your philosophies. Many are born to live as farmers and metamorphose into dead bodies who have lived intelligently and have won life. A few are born to live as hunters and transform into idiotic martyrs. Let’s forget that.
+
+The thing, which makes me sadder, is the hopelessness that I have in your mission. I will tell you why I feel sad. I have sensed a high degree of childishness in the approach, even from the top most people of your mission.
+
+I will describe about the usual procedure of your discussion.It is not something which happened yesterday, but a habitual one which is perennial. The characters may change their roles, but it happens always.
+
+Mr.n speaks about a very much mediocre subject, which won't be a revelation even for an idiot like me. Mr.v and Mr.j were dealing with it as if they are speaking about something serious. I don’t mind even that, because no one is born with knowledge except ‘born knowledge’ and that will be different for various people and we have no control on that knowledge.
+
+Now starts the problem. A childish competition starts right there. Initially, Mr.j finds it difficult to comprehend what mr.n stated. Instead of asking him to repeat, mr.j turns to mr.v and asks whether he understood it. I sensed a strong statement in that process, and I know, I have met people of different genre and hence I can truly follow the psychology of that statement. Now, if mr.v says that he didn’t, mr.j is happy and together they believe that mr.n is wrong.
+
+Better you could play football and score goals. Rubbish
+
+These are my statement from my heart. You people don’t have good brains, but that is not a problem. You can think about brainless manoj and hence find some sort of comfort. But the second thing is that, you have never been sincerely appreciated by anyone I suppose, which makes you so much involved in filthy childish activities.
+
+I said I would tell you about my credibility to criticize you. My life itself is the credential for that. I am not intelligent. But just out of fluke, I say, I was recognized well among my friends who are supposed to be the cream of the society. I was fancied by the appreciation like any person, a few years back, but right now I am well ahead of that status, for, as many among you know, that manoj has had a life full of adventures. The pains, the trials. I was tormented… truly and I am the sincere lover of what you try to love. Only an idiot could be sincere lover, I believe.
+
+Change yourself or else when you lay waiting your death watching the ceiling for endless hours, you will lament thinking about what an idiot shouted at you, when you were young and had good enough time to change yourself to be sincere seekers.
+
+One more thing. I have quit the habit of competing with kids long back. But now I feel that it has become inevitability. I challenge you people to establish that you are better than an idiot called manoj, in any one faculty of mind.
+
+
+# speaker 2 #
+it's for the speaker to add his name here
+## Unnecessary Talks and U wanted Discussions, learning is about to die ##
+
+### i am not able to tolerate the pseudo technocrats acting like a sales representative. ###
+
+The dictionary meaning of
+_Share_
+  1. contributed by an individual or group
+> 2. the part allotted or belonging to one of a number owning together property
+
+_Learn_ :
+  1. to gain knowledge or understanding of or skill in by study,
+> 2.instruction, or experience and
+_Evolve_ :
+  1. to produce by natural evolutionary processes ,
+> 2.social, political, and literary philosophie
+
+here I think we are dealing with such a big dialogue,some of them treated  it as a wonder,but to me,it is not wonder it thought some Alice in the wonderland, Share ; the sharing is not suggesting or redirecting a thing which are being discussed, it is the accepting the subject and deep into it.
+Learning; I thought it is not marketing or dirty flushing of ideas. Evolve: the word which gives the full dimension finishing of idea's which come to practise.
+I am not very passionate about learning.By talking to you I realized that I am dealing with world's most endangered species in the world , have the bottom less intelligence. And the notable thing which I saw here the Ideal preacher's Absence, They shows, at least for them idea's to be vomited and not for practising.It is dirty flushing of ideas from their womb. it is better to talk with the u intelligent people.They may at the level of the egoistic intelligent(ignorance). Currently I am not having the bench marks to check the level of knowledge they have ,it is their fate to still puzzled on the ignorance.
+Even when discussing the idea instead of going further deep into the subject the ideal people are trying push methods and identify the space for themselves. So it is shameful for the technology and the learning procedure. Finally I thought it is not the big deal of Great Ideas it is the deal of spoiling sperm's.

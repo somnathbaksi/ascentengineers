@@ -1,0 +1,32 @@
+INTRODUCTION
+> Useful for quiz games,dumb charades etc.This fastest-finger-first circuit displays the player number along with beep sound when a specific player presses the button before others.It is designed for seven players and can be constructed easily using minimal hardware and software.
+> When a microcontroller receives an input from any of seven tactile switches (S1 through S7),it disables the inputs from the rest of the switches assigned to other players.A master reset control (switch 0) has to be pressed to enable all the inputs for the next round of the quiz.
+
+# Details #
+CIRCUIT DESCRIPTION
+> A 9V DC supply from either a dry cell or a battery eliminator circuit is regulated by IC 7805.The regulated 5V DC obtained is used to power the circuit.The glowing of LED1 indicates the presence of power in the circuit.The circuit for the Fastest-Finger-First using microcontroller AT89C51.
+MICROCONTROLLER AT89C51
+> At the heart of the circuit is flash-based microcontroller IC AT89C51.It is a low-power ,high performance CMOS 8-bit microcomputer with 4KB of flash programmable and erasable read-only memory(PEROM).It is manufactured using Atmel's high-density,non-volatile memory technology and is compatible with the industry-standard MCS-51 instruction set.The on-chip flash allows the program memory to be reprogrammed in-system or by a conventional non-volatile memory programmer.
+> Combining a versatile 8-bit CPU with flash on a monolithic chip,the Atmel AT89C51 is a powerful microcontrollerthat provides a highly flexible and cost-effective solution to many embedded control applications.
+> The AT89C51 provides the following standard features:
+    1. 4KB flash
+> > 2. 128 bytes of RAM
+> > 3. 32 I/O lines
+> > 4. Two 16-bit timers/counters
+> > 5. A 5-vector,two-level interrupt architecture
+> > 6. A full duplex serial port
+> > 7. On-chip oscillator and clock circuitry.
+
+> Here port0 and port1 are used as input and output ports respectively.
+Port-0:Port-0 is an 8-bit open-drain bidirectional I/O PORT.AS an output port,each pin can sink eight TTL inputs.When 1's are written to port-0 pins,the pins can be used as high-impedence inputs.Port-0 may also be configured to be the multiplexed low order address/data bus during access to the external program and data memory.Port-0 receives the code bytes during flash programming and outputs them during program verification.External pull-ups are required during program verification.In this application,each pin of port-0(P0.0 through p0.7)is pulled low through the 1 Killo-ohm resistor network.
+Port-1:Port-1 is an 8-bidirectional I/O port with internal pull-ups.The port-1 output buffers can sink/source four TTL inputs.When 1's are written to port-1 pins,they are pulled high by the internal pull-ups and can be used as inputs.As inputs,port-1 pinsthat are externally being pulled low will source current because of the internal pull-ups.In this application,port pins p1.0 through p1.6 are directly connected to 7-segment common-anode display LT542.The microcontroller increases the accuracy of the results,controls the input actions and directly drives the display.Achieving  similar perfomance in the same space is not  feasible by employing ordinary ICs.
+> Switches S0 through S7 are connected as inputs to controller IC AT89C51 through its port-0.Resistors [R3](https://code.google.com/p/ascentengineers/source/detail?r=3) through [R10](https://code.google.com/p/ascentengineers/source/detail?r=10)(1K each) forming the resistor network are used as pull-down resistors.Capacitor CI and resistor [R2](https://code.google.com/p/ascentengineers/source/detail?r=2) connected to pin 9 of IC 7805 constitute the power-on reset circuitry.
+> The microcontroller continuously waits for the input from button switch S0 at port 0.When the controller detects closure of switch S0,it starts checking the inputs from other switches/players.On detecting an input,it checks which switch(corresponding to player)has been pressed.The 'player number' information relating to each input is already stored in the flash memory and the input data is related to the information stored in the memory.If a specific match is found,the program control shifts the corresponding data into output port-1 buffer.The information is instantly displayed on display LT542.During this time,if any other switch is also pressed,we can hear the beep sound but the controller will notrecognise that request unless the control reset button switch (S0) is pressed once again.
+DUAL FOUR-INPUT OR GATE(CD 4072)
+
+> A beep sound is produced using CD4072 whenever any ofinput switches S0 through S7 is pressed.
+> Input pins 2 through  5 of IC3 are connected to port pins p0.0 through p0.3 of AT89c51, while input pins 9 through 12 of CD4072 are connected to port pins p0.4 through p0.7,respectively. The two input pins 1 and 13 ofIC CD4072 are ORed using diodes D1 and D2. Thus when any of the switches(S0 through S7) is pressed, the input transistor T1 goes high to sound the buzzer.
+Add your content here.  Format your content with:
+  * Text in **bold** goes or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
